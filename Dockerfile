@@ -10,6 +10,6 @@ RUN wget http://aiwolf.org/control-panel/wp-content/uploads/2021/12/aiwolf-ver0.
 RUN unzip -j aiwolf-ver0.6.3.zip -d /root/AIWolfPy/
 RUN chmod +x AIWolfPy/StartServer.sh
 RUN chmod +x AIWolfPy/StartGUIClient.sh
-RUN chmod +x AIWolfPy/python_sample.py
+RUN chmod +x AIWolfPy/python_simple_sample.py
 
 COPY script/StartAiWolf.sh /root/Desktop/
