@@ -8,6 +8,8 @@ RUN git clone https://github.com/aiwolf/AIWolfPy.git
 RUN cd AIWolfPy
 RUN wget http://aiwolf.org/control-panel/wp-content/uploads/2021/12/aiwolf-ver0.6.3.zip
 RUN unzip -j aiwolf-ver0.6.3.zip -d /root/AIWolfPy/
-RUN chmod +x AIWolfPy/StartServer.sh | chmod +x AIWolfPy/StartGUIClient.sh
+RUN chmod +x AIWolfPy/StartServer.sh
+RUN chmod +x AIWolfPy/StartGUIClient.sh
+RUN chmod +x AIWolfPy/python_sample.py
 
 COPY script/StartAiWolf.sh /root/Desktop/
